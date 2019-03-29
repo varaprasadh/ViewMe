@@ -1,16 +1,4 @@
 
-<head>
-<style>
-  body{
-      background: rgb(12, 12, 49);
-      color:white;
-       color:cyan;
-  }
- </style>
-</head>
-<body>
-
-
 # ViewMe-The-Video-Chat-App
 - basic video chat app using webRTC with node js
 ----
@@ -37,8 +25,3 @@
 - incase you are running on lan 
  - change host on ***index.js*** file to     specific ip as your router assigned to you
 ----
-
-
-
-</body>
-
