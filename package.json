@@ -1,0 +1,20 @@
+{
+    "name": "ViewMe",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "dev": "nodemon index.js "
+    },
+    "keywords": [],
+    "author": "varaprasadh",
+    "license": "MIT",
+    "dependencies": {
+        "express": "^4.16.4",
+        "peer": "^0.2.10",
+        "peerjs": "^0.3.24",
+        "socket.io": "^2.2.0",
+        "socket.io-stream": "^0.9.1"
+    }
+}

@@ -1,0 +1,123 @@
+body,html{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #0d0718;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    /* padding: 10px; */
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 2em;
+    /* text-transform: uppercase; */
+    color: rgb(255, 255, 255);
+}
+.video-container{
+    display: flex;
+    height: 500px;
+}
+
+.video{
+    flex: 1;
+    margin: 10px;
+    border: 2px solid rgb(255, 0, 255);
+    
+}
+video{
+    width: 100%;
+    height: 100%;
+}
+.control-panel{
+    display: flex;
+    padding: 30px;
+    background: rgb(18, 18, 31);
+    justify-content: space-around;
+}
+.join{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(33, 33, 59);
+     color: white;
+     padding: 10px;
+}
+.join .input{
+    display: flex;
+    justify-content: center;
+    background: white;
+    align-items: center;
+    margin-top: 10px;
+}
+.join .input .join-btn{
+ padding: 10px 30px;
+ background: green;
+ color: white;
+ cursor: pointer;
+ filter: drop-shadow(5px 5px 10px black);
+}
+
+.join .input input{
+    border: none;
+    outline:none;
+    padding: 5px 30px;
+}
+
+.join .input input:focus{
+    outline: none;
+}
+.invite{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background: rgb(41, 41, 70);
+    color: white;
+}
+.invite .text{
+    padding: 10px 50px;
+    background: rgb(221, 136, 0);
+    border-radius: 10px;
+    filter: drop-shadow(5px 5px 10px black);
+    cursor: pointer;   
+}
+.invite .text:hover{
+
+}
+.ref-area{
+    color: white;
+    padding: 10px;
+    background: rgb(27, 27, 51);
+}
+.ref-control{
+    margin-top:10px;
+    display: flex;
+    background: white;
+}
+.ref-copy{
+    background:green;
+    cursor: pointer;
+    filter: drop-shadow(5px 5px 10px black);
+}
+.ref-control>div{
+    padding: 10px 30px;
+}
+.ref-text{
+    color:blue;
+    font-weight: bold;
+}
+
+@media screen and (max-width:500px){
+    .video-container{
+        flex-direction: column;
+    }
+    .control-panel{
+        flex-direction: column;
+    }
+}

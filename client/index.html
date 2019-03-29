@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>ViewMe</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./main.js"></script>
+    <script src="./jsDistro/socket-io.js"></script>
+    <script src="./jsDistro/peer.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="title">
+                viewMe
+            </div>
+        </div>
+        <div class="video-container">
+            <div class="video">
+                <video class="local-view" src="./tryAI_or_DIE.mp4" autoplay controls></video>
+            </div>
+            <div class="video">
+                <video class="remote-view" src="./tryAI_or_DIE.mp4" autoplay controls></video>
+            </div>
+        </div>
+        <div class="control-panel">
+          <div class="join">
+              <div class="info">Join with invitation Code</div>
+              <div class="input">
+                  <input type="text" class="text" placeholder="enter invitation code here" id="join-ref-code">
+                  <div class="join-btn">Join</div>
+              </div>
+          </div>
+          <div class="invite">
+              <div class="text">Copy invitation Link</div>
+          </div> 
+          <div class="ref-area">
+              <div class="info">You can share this code also</div>
+              <div class="ref-control">
+                <div class="ref-text"><!-- randomecode --></div>
+                <div class="ref-copy">Copy</div>
+              </div>
+          </div>   
+        </div>
+    </div>
+</body>
+</html>
