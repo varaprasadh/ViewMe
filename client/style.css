@@ -119,5 +119,6 @@ video{
     }
     .control-panel{
         flex-direction: column;
+        
     }
 }
