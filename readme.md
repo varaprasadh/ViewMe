@@ -12,11 +12,9 @@
     npm install
     ```
     - you should need to have nodejs installed on your computer
-- after that run two commands
+- after that run command
     - 
     ```
-       > node PeerServer
-
        > node index
     ```
 - then go to 
